@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f6f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #3498db;
+  }
+  
+  h3 {
+    color: #2ecc71;
+  }
+  
+  p {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add some hover effect to headings */
+  h1:hover, h3:hover {
+    color: #e74c3c;
+  }
+  

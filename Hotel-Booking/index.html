@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking</title>
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="coal.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+01123456790" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+01 (123) 4567 90</p>
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+          <img src="hawaii.png" alt="Coalearly logo" width="70" >
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.twitter.com/" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="coal.png" alt="Coalearly">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>about us</a>
+            </li>
+
+            <li>
+              <a href="destination.html" class="navbar-link" data-nav-link>destination</a>
+            </li>
+
+            <li>
+              <a href="package.html" class="navbar-link" data-nav-link>packages</a>
+            </li>
+
+            <li>
+              <a href="gallery.html" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary"><a href="booking.html">Book now</a></button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">Hawai Hotels</h2>
+
+          <p class="hero-text">
+            Our hotels specializes in safe and reliable staying services. With a fleet of experiences staff and modern facilities, we ensure timely and secure service for your stay. Count on us for cost-effective and eco-friendly services, meeting your energy needs with precision
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-primary"><a href="learn.html">Learn More</a></button>
+          </div>
+
+        </div>
+      </section>
+      <section class="tm-servicesection">
+        <div class="tm-service">
+             <img class="tm-serimage" src="bell.png">
+            <div>
+                       <p class="b">Room Service</p>
+                       <p> Enjoy your stay with excellent and timely room service </p> </div>
+       </div>
+       <div class="tm-service">
+             <img class="tm-serimage" src="coffee.png">
+            <div>
+                       <p class="b">Free Breakfast</p>
+                       <p> Enjoy Free breakfast every morning</p> </div>
+       </div>
+   </section>
+   <section class="tm-servicesection">
+
+       <div class="tm-service">
+             <img class="tm-serimage" src="car-front.png">
+            <div>
+                       <p class="b">Free Parking</p>
+                       <p> No need to pay any extra charges to park your vehicle </p> </div>
+       </div>
+       <div class="tm-service">
+             <img class="tm-serimage" src="spa.png">
+            <div>
+                       <p class="b">Free Spa</p>
+                       <p> Relax at the inhouse Spa once every day of your stay </p> </div>
+       </div>
+
+   </section>
+
+
+      <section class="tour-search">
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Select Destination</label>
+              <select name="destination" id="destination" class="input-field" required>
+                  <option value="" disabled selected>Select </option>
+                  <option value="Andhra Pradesh">Andhra Pradesh</option>
+                  <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                  <option value="Assam">Assam</option>
+                  <option value="Bihar">Bihar</option>
+                  <option value="Chhattisgarh">Chhattisgarh</option>
+                  <option value="Goa">Goa</option>
+                  <option value="Gujarat">Gujarat</option>
+                  <option value="Haryana">Haryana</option>
+                  <option value="Himachal Pradesh">Himachal Pradesh</option>
+                  <option value="Jharkhand">Jharkhand</option>
+                  <option value="Karnataka">Karnataka</option>
+                  <option value="Kerala">Kerala</option>
+                  <option value="Madhya Pradesh">Madhya Pradesh</option>
+                  <option value="Maharashtra">Maharashtra</option>
+                  <option value="Manipur">Manipur</option>
+                  <option value="Meghalaya">Meghalaya</option>
+                  <option value="Mizoram">Mizoram</option>
+                  <option value="Nagaland">Nagaland</option>
+                  <option value="Odisha">Odisha</option>
+                  <option value="Punjab">Punjab</option>
+                  <option value="Rajasthan">Rajasthan</option>
+                  <option value="Sikkim">Sikkim</option>
+                  <option value="Tamil Nadu">Tamil Nadu</option>
+                  <option value="Telangana">Telangana</option>
+                  <option value="Tripura">Tripura</option>
+                  <option value="Uttar Pradesh">Uttar Pradesh</option>
+                  <option value="Uttarakhand">Uttarakhand</option>
+                  <option value="West Bengal">West Bengal</option>
+                  <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                  <option value="Chandigarh">Chandigarh</option>
+                  <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
+                  <option value="Lakshadweep">Lakshadweep</option>
+                  <option value="Delhi">Delhi (National Capital Territory of Delhi)</option>
+                  <option value="Puducherry">Puducherry</option>
+                  <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                  <option value="Ladakh">Ladakh</option>
+              </select>
+          </div>
+          
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">No. of persons</label>
+
+              <input type="number" name="coal" id="people" required placeholder="Persons" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Check-In Date</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Check-Out Date</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+            <button type="submit" class="btn btn-secondary"><a href="inq.html">Inquire now</a></button>
+
+          </form>
+
+        </div>
+      </section>
+      <hr>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14010.088542639784!2d77.35320824074986!3d28.614109300473274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5992452d761%3A0xaaa44725147c1507!2sJSS%20Academy%20of%20Technical%20Education!5e0!3m2!1sen!2sin!4v1699433363578!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <hr>
+      
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">Ready For Unforgettable Service Experience. Remember Us!</h2>
+
+            <p class="section-text">
+              
+            </p>
+          </div>
+
+          <button class="btn btn-secondary"><a href="tel:+1234567890">Contact Us !</a></button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="hawaii.png" alt="Tourly logo">
+          </a>
+
+          <p class="footer-text">
+            Efficient Coal Transport Solutions: Our company specializes in safe and reliable coal transport services. With a fleet of modern vehicles and experienced drivers, we ensure timely and secure delivery of your coal products. Count on us for cost-effective and eco-friendly transportation, meeting your energy needs with precision
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">+01 (123) 4567 90</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.tourly.com" class="contact-link">info.coalearly.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>B-17, Sector 62, Noida, UP</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Mail us for more enquiry !!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">E-mail</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="">coaldistributors</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+  <script src="coal.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
